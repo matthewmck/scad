@@ -1,0 +1,68 @@
+.footer {
+  &__about {
+    flex-basis: 40%;
+    padding: 0 20px;
+
+    @media #{$sm} {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__contact {
+    flex-basis: 30%;
+    padding: 0 20px;
+
+    @media #{$sm} {
+      margin-bottom: 25px;
+    }
+
+    & address {
+      margin-top: 10px;
+    }
+
+    & h3 {
+      margin-top: 10px;
+    }
+  }
+
+  &__container {
+    background: $blue-60 url("../../assets/bg_pattern_footer.png");
+    margin-top: 100px;
+
+    &-top {
+      display: flex;
+      padding: 50px 0 25px 0;
+
+      @media #{$sm} {
+        flex-direction: column;
+      }
+
+      & h2 {
+        margin-bottom: 10px;
+      }
+
+      & h3 {
+        margin-top: 10px;
+      }
+    }
+
+    &-bottom {
+      background-color: $black-60;
+      line-height: 0%;
+      padding: 18px 0;
+    }
+  }
+
+  &__faq {
+    flex-basis: 30%;
+    padding: 0 20px;
+
+    @media #{$sm} {
+      margin-bottom: 25px;
+    }
+
+    & p {
+      margin-bottom: 20px;
+    }
+  }
+}

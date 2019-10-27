@@ -1,0 +1,24 @@
+%invisible {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+%shadow-sm {
+  box-shadow: 0 0.5rem 1rem rgba(103, 103, 103, 0.15);
+}
+
+%shadow {
+  box-shadow: 0 0.15rem 0.4rem rgba(27, 27, 27, 0.45);
+}
+
+%shadow-lg {
+  box-shadow: 0 0.35rem 0.55rem rgba(27, 27, 27, 0.45);
+}

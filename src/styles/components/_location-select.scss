@@ -1,0 +1,31 @@
+.location-select {
+  &__container {
+    align-items: center;
+    background-color: $white-30;
+    border: 2px solid $yellow-green-50;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0 60px 0;
+    padding: 15px;
+    @extend %shadow-sm;
+  }
+
+  &__select {
+    appearance: none;
+    background: $white-70 url("../../assets/dropdown@2x.png") no-repeat right
+      1.5rem top 1rem;
+    background-color: $transparent;
+    background-size: 2.5rem;
+    border: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0.5rem 5.5rem 0.5rem 1rem;
+    min-height: 2.5rem;
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+}

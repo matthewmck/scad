@@ -1,0 +1,15 @@
+.modal {
+  &__btn {
+    background-color: $white-70;
+    border-color: $white-70;
+    border-radius: 4px;
+  }
+
+  &__close {
+    opacity: 1;
+  }
+
+  &__container {
+    @extend %shadow-lg;
+  }
+}

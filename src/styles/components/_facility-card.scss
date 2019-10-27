@@ -1,0 +1,142 @@
+.facility-card {
+  background-color: $white-30;
+  border-radius: 4px;
+  margin: 140px 12px 0 12px;
+  max-width: 250px;
+  text-align: center;
+  @extend %shadow-sm;
+
+  @media #{$lg} {
+    margin: 140px 10px 0 10px;
+    max-width: 290px;
+  }
+
+  @media #{$md} {
+    max-width: 325px;
+  }
+
+  @media #{$sm} {
+    margin: 15px 0;
+    max-width: 100%;
+    text-align: left;
+    width: 100%;
+  }
+
+  &__btn {
+    background-color: $transparent;
+    border: 2px solid $blue-50;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 100%;
+
+    @media #{$sm} {
+      background-color: $blue-50;
+      border: none;
+      border-radius: 0;
+      margin-bottom: 20px;
+      padding: 10px 25px;
+      width: auto;
+    }
+  }
+
+  &__container {
+    @media #{$sm} {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    &-img {
+      display: inline-block;
+      margin-top: -100px;
+      position: relative;
+
+      @media #{$sm} {
+        margin-top: 20px;
+      }
+    }
+
+    &-info {
+      padding: 20px 20px 0 20px;
+    }
+
+    &-btn {
+      padding: 20px 20px 0 20px;
+
+      @media #{$sm} {
+        text-align: center;
+      }
+    }
+  }
+
+  &__desc {
+    min-height: 95px;
+
+    @media #{$sm} {
+      display: none;
+    }
+  }
+
+  &__hours {
+    margin-bottom: 0.5rem;
+  }
+
+  &__hr {
+    border-bottom: 1px solid $white-60;
+    border-top: 1px solid $white-40;
+    margin: 20px 0;
+
+    @media #{$sm} {
+      display: none;
+    }
+  }
+
+  &__img {
+    border-radius: 50%;
+    height: 210px;
+    object-fit: cover;
+    width: 210px;
+    @extend %shadow-sm;
+
+    @media #{$lg} {
+      height: 220px;
+      width: 220px;
+    }
+
+    @media #{$md} {
+      height: 240px;
+      width: 240px;
+    }
+
+    @media #{$sm} {
+      border-radius: 50%;
+      flex-shrink: 1;
+      height: 125px;
+      object-fit: cover;
+      width: 125px;
+    }
+  }
+
+  &__location {
+    @media #{$sm} {
+      margin-bottom: 0;
+    }
+  }
+
+  &__new {
+    background: $yellow-green-50;
+    border-radius: 50%;
+    bottom: 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 50px;
+    @extend %shadow;
+  }
+}

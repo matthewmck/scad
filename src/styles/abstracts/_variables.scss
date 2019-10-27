@@ -1,0 +1,40 @@
+/* ################# COLORS ################# */
+$white-70: rgb(221, 221, 221);
+$white-60: rgb(238, 238, 238);
+$white-50: rgb(247, 247, 247);
+$white-40: rgb(253, 253, 253);
+$white-30: rgb(255, 255, 255);
+
+$black-70: rgb(0, 0, 0);
+$black-60: rgb(27, 27, 27);
+$black-50: rgb(51, 51, 51);
+$black-40: rgb(103, 103, 103);
+$black-30: rgb(141, 141, 141);
+
+$blue-60: rgb(9, 59, 104);
+$blue-55: rgb(0, 127, 173);
+$blue-50: rgb(0, 174, 239);
+
+$yellow-green-50: rgb(217, 222, 54);
+
+$transparent: rgba(0, 0, 0, 0);
+
+/* ################# FONT SIZES ################# */
+$font-xs: 1.1rem;
+$font-sm: 1.2rem;
+$font-md: 1.4rem;
+$font-lg: 1.6rem;
+$font-xl: 1.8rem;
+$font-heading: 2.4rem;
+
+/* ################# FONT WEIGHTS ################# */
+$weight-rg: 400;
+$weight-bold: 600;
+$weight-semi-bold: 700;
+$weight-xtra-bold: 800;
+
+/* ################# SCREEN SIZES ################# */
+$xs: "(max-width: 575.98px)"; /* phone */
+$sm: "(max-width: 767.98px)"; /* phone-landscape */
+$md: "(max-width: 991.98px)"; /* tablet */
+$lg: "(max-width: 1199.98px)"; /* desktop */

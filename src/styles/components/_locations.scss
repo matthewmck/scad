@@ -1,0 +1,9 @@
+.locations__container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media #{$sm} {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

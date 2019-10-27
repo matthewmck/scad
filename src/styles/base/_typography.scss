@@ -1,0 +1,132 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: $font-md;
+}
+
+p {
+  color: $black-50;
+  font-weight: $weight-bold;
+}
+
+.facility-card {
+  &__btn {
+    color: $blue-55;
+    font-weight: $weight-bold;
+
+    @media #{$sm} {
+      color: $white-30;
+
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__header {
+    color: $black-40;
+    font-size: $font-heading;
+    font-weight: $weight-bold;
+  }
+
+  &__hours {
+    font-weight: $weight-xtra-bold;
+  }
+
+  &__new {
+    font-weight: $weight-xtra-bold;
+  }
+}
+
+.footer {
+  &__contact {
+    & address {
+      font-size: $font-sm;
+      font-weight: $weight-rg;
+    }
+
+    & h3 {
+      font-size: $font-md;
+      font-weight: $weight-rg;
+    }
+  }
+
+  &__container {
+    color: $white-30;
+
+    &-top {
+      & h2 {
+        font-size: $font-xl;
+        font-weight: $weight-bold;
+      }
+
+      & h3 {
+        font-size: $font-sm;
+        font-weight: $weight-semi-bold;
+      }
+
+      & p {
+        color: $white-30;
+        font-size: $font-sm;
+        font-weight: $weight-rg;
+      }
+    }
+
+    &-bottom {
+      color: $black-30;
+      font-size: $font-xs;
+    }
+  }
+}
+
+.location-select {
+  &__label {
+    color: $black-40;
+    font-size: $font-heading;
+    font-weight: $weight-semi-bold;
+  }
+
+  &__option {
+    color: $black-50;
+    font-size: $font-md;
+  }
+
+  &__select {
+    color: $blue-55;
+    font-size: $font-heading;
+    font-weight: $weight-semi-bold;
+  }
+}
+
+.modal {
+  &__amenities-label {
+    font-size: $font-lg;
+    text-decoration: underline;
+    font-weight: $weight-bold;
+  }
+
+  &__btn {
+    color: $black-50;
+    font-size: $font-md;
+    font-weight: $weight-bold;
+  }
+
+  &__close {
+    font-size: $font-heading;
+    color: $black-40;
+  }
+
+  &__list {
+    font-size: $font-md;
+    font-weight: $weight-bold;
+  }
+
+  &__title {
+    font-size: $font-heading;
+    font-weight: $weight-bold;
+    color: $black-50;
+  }
+}
